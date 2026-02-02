@@ -39,7 +39,6 @@ for index, linha in df.iterrows():
         pyautogui.hotkey('ctrl', 'w')
         print("Aba fechada.")
         
-        # Pausa maior entre pessoas diferentes para evitar bloqueio do WhatsApp
         time.sleep(10)
 
 print("Processo concluído!")
